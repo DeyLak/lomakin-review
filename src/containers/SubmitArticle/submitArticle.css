@@ -1,0 +1,42 @@
+.Paper {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  /*padding: 0.5em;*/
+  margin: auto;
+  /*margin-top: 1em;
+
+  max-width: 80em;*/
+  align-items: center;
+}
+.submitBlock {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  margin: 1em 1em 1em 1em;
+}
+.submitBlock_RaisedButton {
+  position: relative;
+}
+.submitBlock_RefreshIndicator {
+  position: relative;
+}
+@media screen and (max-width: 480px) {
+  .Paper {
+    padding: 0;
+    /*margin: 0.5em 0;*/
+  }
+  .submitBlock {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    margin: 1em 1em 1em 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Paper {
+    margin: 0.5em -0.5em;
+  }
+}

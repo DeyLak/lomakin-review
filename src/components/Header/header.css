@@ -1,0 +1,50 @@
+.top {
+  /*display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;*/
+
+  margin-top: -0.8em;
+  /*height: 3.5em;*/
+  /*height: auto;*/
+}
+
+.topRows {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	height: 70px;
+	margin-top: 0em;
+}
+.topRows div {
+	/*top: 0em;*/
+	/*margin-right: 1em;*/
+	/*padding-bottom: 0em;*/
+	/*height: 72px;*/
+}
+/*
+.DatePicker div {
+	margin-right: 0em;
+	padding-bottom: 0em;
+	padding-top: 0.5em;
+}*/
+
+/*.InputName {
+  top: -2em;
+  margin-bottom: 0em;
+  margin-right: 1em;
+}*/
+
+@media screen and (max-width: 1070px) {
+	.topRows {
+		height: auto;
+	}
+	/*.InputNameId {
+	  margin-left: 0em;
+	}
+  .InputFullTime {
+    margin-left: 0em;
+  }*/
+}
+
+@media screen and (max-width: 480px) {
+}

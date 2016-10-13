@@ -1,0 +1,64 @@
+.UpdateBtn {
+	position: absolute;
+	display: flex;
+
+	width: 0px;
+	height: 20px;
+
+	justify-content: flex-end;
+
+	margin-top: -3.70em;
+	margin-left: calc(100% - 56px);
+	margin-bottom: 0em;
+	padding-bottom: 4em;
+
+	z-index: 99;
+}
+
+.Paper {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0.5em;
+  /*margin: auto;*/
+  padding-top: -1em;
+	/*padding-top: -0.5em;*/
+  /*max-width: 80em;*/
+  align-items: flex-start;
+}
+.PaperMain {
+  position: relative;
+  display: flex;
+  flex-flow: column;;
+  padding: 0.5em;
+  /*margin: auto;*/
+  /*margin-top: 1em;*/
+
+  /*max-width: 80em;*/
+  align-items: flex-start;
+}
+
+.filterBtn {
+	display: flex;
+	right: 10px;
+	margin: 12px;
+}
+
+.btnMargingLeft {
+	margin-left: 1em;
+}
+
+.Row .RowItem {
+	height: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .Paper {
+    padding: 0;
+    margin: 0.5em 0;
+  }
+  .PaperMain {
+    padding: 0;
+    margin: 0.5em 0;
+  }
+}
