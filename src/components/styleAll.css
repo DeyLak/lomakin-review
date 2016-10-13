@@ -1,0 +1,73 @@
+.Input {
+  margin-bottom: 0em;
+}
+
+.InputAutoComplete {
+	display: flex;
+  top: 0em;
+	margin: 0;
+	padding: 0;
+  /*margin-bottom: 0em;
+  margin-right: 1em;
+	padding-right: 1em;*/
+	width: 80px;
+	height: 56px;
+	/*padding: 0 1em 0em 0em;*/
+}
+.InputAutoComplete div {
+	padding-right: 1em;
+	/*padding-bottom: 0em;
+	padding-top: 0.5em;*/
+	/*padding: 0.5em 0em 0em 0em;*/
+	/*height: 56px;
+	width: 80px;*/
+}
+.InputAutoComplete div label {
+	/*margin-right: 0em;
+	padding-bottom: 0em;
+	padding-top: 0.5em;
+	height: 56px;
+	width: 80px;*/
+}
+.InputAutoComplete div input {
+	/*height: 56px;
+	width: 80px;*/
+}
+
+.DatePicker {
+	display: flex;
+	height: 86px  !important;
+	width: 80px;
+	padding: 0 1em 0 0em;
+}
+.DatePicker div {
+	/*height: 46px;*/
+	/*width: 80px;*/
+	/*margin-right: 0em;
+	padding-bottom: 0em;
+	padding-top: 0.5em;*/
+}
+.DatePicker input {
+	/*height: 46px;*/
+	/*width: 80px;*/
+}
+
+.Paper {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+	justify-content: flex-start;
+
+  /*margin-bottom: 0;*/
+
+	padding: 0em 1em 0em 1em;
+	margin-top: 0.5em;
+
+  max-width: 58em;
+}
+
+@media screen and (max-width: 480px) {
+  .Paper {
+		padding: 0 0.5em 0 0.5em;
+  }
+}
